@@ -24,10 +24,9 @@ many ways to both VS Code and RStudio, it's an excellent meeting point for
 those comming from either IDE. However, Positron is also different in many ways
 to both VS Code and RStudio, so the transition will come with some pain.
 
-Here I share ideas to reduce that pain simply. I'll show how you can first 
-prepare for the transition from your most familiar IDE (say VS Code). You'll
-tweak your workflow to gradually incorporate tools and techniques that are 
-common in Positron, and in your least familiar IDE (say RStudio).
+To reduce that pain and stay productive, you can taste Positron or start 
+preparing for the transition with relatively small and few changes to your 
+current workflow from the comfort of your favorite IDE.
 
 ## Positron
 
