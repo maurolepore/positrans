@@ -134,7 +134,9 @@ defaults: ~/.config/Code/User/keybindings.json
 
 
 
-<details><summary>ES</summary>
+<details>
+
+<summary>ES</summary>
 
 # Acercándose a Positron desde VS Code para R
 
@@ -206,7 +208,6 @@ de Positron para R.
 
     # Quarto
     code --install-extension quarto.quarto
-
 ```
 
 TODO: En el paleta de comandos de VSCode, ejecutar `r.debugger.updateRPackage`
@@ -255,5 +256,6 @@ TODO: En el paleta de comandos de VSCode, ejecutar `r.debugger.updateRPackage`
         "command": "r.test"
     }
 ]
+```
 
 </details>

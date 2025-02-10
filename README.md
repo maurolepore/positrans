@@ -212,13 +212,29 @@ TODO: En el paleta de comandos de VSCode, ejecutar
   archivo para sobrescribir los valores predeterminados:
   ~/.config/Code/User/keybindings.json
 
-\`\`\` json \[ // SOPORTE BÁSICO PARA R { // Crear un nuevo terminal de
-R (similar a reiniciar R) “key”: “ctrl+shift+0”, “command”:
-“r.createRTerm” }, { // Asignar “key”: “alt+-”, “command”: “type”,
-“args”: { “text”: ” \<- ” }, “when”: “editorTextFocus && editorLangId ==
-‘r’” }, { // Pipe “key”: “ctrl+shift+m”, “command”: “type”, “args”: {
-“text”: ” \|\> ” }, “when”: “editorTextFocus && editorLangId == ‘r’” },
-
+``` json
+[
+  // SOPORTE BÁSICO PARA R
+    {
+        // Crear un nuevo terminal de R (similar a reiniciar R)
+        "key": "ctrl+shift+0",
+        "command": "r.createRTerm"
+    },
+    {
+        // Asignar
+        "key": "alt+-",
+        "command": "type",
+        "args": { "text": " <- " },
+        "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    {
+        // Pipe
+        "key": "ctrl+shift+m",
+        "command": "type",
+        "args": { "text": " |> " },
+        "when": "editorTextFocus && editorLangId == 'r'"
+    },
+    
     // DESARROLLO DE PAQUETES R CON DEVTOOLS
     {          
         "key": "ctrl+shift+l",
@@ -236,7 +252,7 @@ R (similar a reiniciar R) “key”: “ctrl+shift+0”, “command”:
         "key": "ctrl+shift+t",
         "command": "r.test"
     }
-
-\]
+]
+```
 
 </details>
