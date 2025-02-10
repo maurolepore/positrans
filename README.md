@@ -62,7 +62,6 @@ approximate Positron’s experience for R.
     Rscript -e 'install.packages("languageserver")'
 
     # Debug
-    # TODO: In VSCode command pallete run `r.debugger.updateRPackage`
     code --install-extension rdebugger.r-debugger
 
     # Test
@@ -74,6 +73,8 @@ approximate Positron’s experience for R.
 
     # Quarto
     code --install-extension quarto.quarto
+
+TODO: In VSCode command pallete run `r.debugger.updateRPackage`
 
 - Shortcuts: Place your key bindings in this file to override the
   defaults: ~/.config/Code/User/keybindings.json
