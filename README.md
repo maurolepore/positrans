@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# positrans: Positron transition
+# Approaching Positron from VS Code for R
 
 > As someone working with R and used to VS Code (or RStudio), I want to
 > know how to transition to Positron smoothly, so that I can more easily

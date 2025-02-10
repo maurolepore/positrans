@@ -13,20 +13,21 @@ knitr::opts_chunk$set(
 )
 ```
 
-# positrans: Positron transition
+# Approaching Positron from VS Code for R
 
-> As someone working with R and used to VS Code (or RStudio), I want to know 
-how to transition to Positron smoothly, so that I can more easily collaborate 
-with colleagues comming from RStudio (or VS Code).
+> As someone working with R and used to VS Code (or RStudio), I want to
+know how to transition to Positron smoothly, so that I can more easily
+collaborate with colleagues comming from RStudio (or VS Code).
 
-Positron is a polyglot IDE with great support for R. Because it's similar in 
-many ways to both VS Code and RStudio, it's an excellent meeting point for 
-those comming from either IDE. However, Positron is also different in many ways
-to both VS Code and RStudio, so the transition will come with some pain.
+Positron is a polyglot IDE with great support for R. Because it's similar
+in many ways to both VS Code and RStudio, it's an excellent meeting point
+for those comming from either IDE. However, Positron is also different
+in many ways to both VS Code and RStudio, so the transition will come
+with some pain.
 
-To reduce that pain and stay productive, you can taste Positron or start 
-preparing for the transition with relatively small and few changes to your 
-current workflow from the comfort of your favorite IDE.
+To reduce that pain and stay productive, you can taste Positron or start
+preparing for the transition with relatively small and few changes to
+your current workflow from the comfort of your favorite IDE.
 
 ## Positron
 
@@ -57,9 +58,9 @@ You can enable [RSdudio keyboard shortcuts](https://positron.posit.co/keyboard-s
 
 ## VS Code
 
-[Visual Studio Code](https://code.visualstudio.com/) comes with little support
-for R, but these few extensios and keyboard shortcuts approximate Positron's
-experience for R.
+[Visual Studio Code](https://code.visualstudio.com/) comes with little
+support for R, but these few extensios and keyboard shortcuts approximate
+Positron's experience for R.
 
 * Extensions:
 
@@ -85,7 +86,8 @@ code --install-extension quarto.quarto
 
 TODO: In VSCode command pallete run `r.debugger.updateRPackage`
 
-* Shortcuts: Place your key bindings in this file to override the defaults: ~/.config/Code/User/keybindings.json 
+* Shortcuts: Place your key bindings in this file to override the
+defaults: ~/.config/Code/User/keybindings.json
 
 ```json
 [
