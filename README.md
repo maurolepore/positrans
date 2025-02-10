@@ -16,7 +16,7 @@ transition will come with some pain.
 Here I share ideas to reduce that pain simply. I’ll show how you can
 first prepare for the transition from your most familiar IDE (say VS
 Code). You’ll tweak your workflow to gradually incorporate tools and
-gestures that are common in Positron, and in your least familiar IDE
+techniques that are common in Positron, and in your least familiar IDE
 (say RStudio).
 
 ## Positron
@@ -29,7 +29,7 @@ gestures that are common in Positron, and in your least familiar IDE
   - Panels to explore plots and data.
   - Support for Quarto
 - Tools for software development:
-  - Gestures for building R packages with devtools
+  - Keyboard shortcuts for building R packages with devtools
   - Support for Shiny
   - Testing
 - Tools for debugging R code.
@@ -51,8 +51,8 @@ e.g.:
 ## VS Code
 
 [Visual Studio Code](https://code.visualstudio.com/) comes with little
-support for R, but these few extensios and shortcuts approximate
-Positron’s experience for R.
+support for R, but these few extensios and keyboard shortcuts
+approximate Positron’s experience for R.
 
 - Extensions:
 

@@ -15,11 +15,19 @@ knitr::opts_chunk$set(
 
 # positrans
 
-> As someone working with R and used to VS Code (or RStudio), I want to know how to transition to Positron smoothly, so that I can more easily collaborate with colleagues comming from RStudio (or VS Code).
+> As someone working with R and used to VS Code (or RStudio), I want to know 
+how to transition to Positron smoothly, so that I can more easily collaborate 
+with colleagues comming from RStudio (or VS Code).
 
-Positron is a polyglot IDE with great support for R. Because it's similar in many ways to both VS Code and RStudio, it's an excellent meeting point for those comming from either IDE. However, Positron is also different in many ways to both VS Code and RStudio, so the transition will come with some pain.
+Positron is a polyglot IDE with great support for R. Because it's similar in 
+many ways to both VS Code and RStudio, it's an excellent meeting point for 
+those comming from either IDE. However, Positron is also different in many ways
+to both VS Code and RStudio, so the transition will come with some pain.
 
-Here I share ideas to reduce that pain simply. I'll show how you can first prepare for the transition from your most familiar IDE (say VS Code). You'll tweak your workflow to gradually incorporate tools and gestures that are common in Positron, and in your least familiar IDE (say RStudio).
+Here I share ideas to reduce that pain simply. I'll show how you can first 
+prepare for the transition from your most familiar IDE (say VS Code). You'll
+tweak your workflow to gradually incorporate tools and techniques that are 
+common in Positron, and in your least familiar IDE (say RStudio).
 
 ## Positron
 
@@ -31,7 +39,7 @@ Here I share ideas to reduce that pain simply. I'll show how you can first prepa
   * Panels to explore plots and data.
   * Support for Quarto
 * Tools for software development:
-  * Gestures for building R packages with devtools
+  * Keyboard shortcuts for building R packages with devtools
   * Support for Shiny
   * Testing
 * Tools for debugging R code.
@@ -50,7 +58,9 @@ You can enable [RSdudio keyboard shortcuts](https://positron.posit.co/keyboard-s
 
 ## VS Code
 
-[Visual Studio Code](https://code.visualstudio.com/) comes with little support for R, but these few extensios and shortcuts approximate Positron's experience for R.
+[Visual Studio Code](https://code.visualstudio.com/) comes with little support
+for R, but these few extensios and keyboard shortcuts approximate Positron's
+experience for R.
 
 * Extensions:
 
