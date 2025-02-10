@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# positrans
+# positrans: Positron transition
 
 > As someone working with R and used to VS Code (or RStudio), I want to know 
 how to transition to Positron smoothly, so that I can more easily collaborate 
