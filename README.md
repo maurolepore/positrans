@@ -3,10 +3,6 @@
 
 # Approaching Positron from VS Code for R
 
-> As someone working with R and used to VS Code (or RStudio), I want to
-> know how to transition to Positron smoothly, so that I can more easily
-> collaborate with colleagues comming from RStudio (or VS Code).
-
 Positron is a polyglot IDE with great support for R. Because it’s
 similar in many ways to both VS Code and RStudio, it’s an excellent
 meeting point for those comming from either IDE. However, Positron is
@@ -17,9 +13,17 @@ To reduce that pain and stay productive, you can taste Positron or start
 preparing for the transition with relatively small and few changes to
 your current workflow from the comfort of your favorite IDE.
 
+This post targets a user like the one described by this story:
+
+> As someone working with R and used to VS Code, I want to know how to
+> transition to Positron smoothly, so that I can more easily collaborate
+> with colleagues comming from RStudio.
+
 ## Positron
 
-[Positron](https://positron.posit.co/) includes:
+If you come from VS Code and a languagge other than R, then you may not
+exactly know what exactly to expect from an IDE that supports R, so here
+is an overview of what [Positron](https://positron.posit.co/) includes:
 
 - Tools for data science:
   - R console
@@ -48,8 +52,9 @@ e.g.:
 
 ## VS Code
 
-[Visual Studio Code](https://code.visualstudio.com/) comes with little
-support for R, but these few extensios and keyboard shortcuts
+One feature of [Visual Studio Code](https://code.visualstudio.com/) is
+that it’s lean and extensible. By default it comes with nothing of
+what’s listed above, but these few extensios and keyboard shortcuts
 approximate Positron’s experience for R.
 
 - Extensions:
@@ -129,11 +134,6 @@ ES
 
 # Acercándose a Positron desde VS Code para R
 
-> Como alguien que trabaja con R y está acostumbrado a VS Code (o
-> RStudio), quiero saber cómo hacer la transición a Positron de manera
-> fluida, para poder colaborar más fácilmente con colegas que vienen de
-> RStudio (o VS Code).
-
 Positron es un IDE multilenguaje con excelente soporte para R. Debido a
 que es similar en muchos aspectos tanto a VS Code como a RStudio, es un
 excelente punto de encuentro para quienes provienen de cualquiera de
@@ -146,9 +146,18 @@ Positron o comenzar a prepararte para la transición con cambios
 relativamente pequeños en tu flujo de trabajo actual, desde la comodidad
 de tu IDE favorito.
 
+Este articulo apunta a una persona como la descripta por esta historia:
+
+> Como alguien que trabaja con R y está acostumbrado a VS Code (o
+> RStudio), quiero saber cómo hacer la transición a Positron de manera
+> fluida, para poder colaborar más fácilmente con colegas que vienen de
+> RStudio (o VS Code).
+
 ## Positron
 
-[Positron](https://positron.posit.co/) incluye:
+Si venis de VS Code y una lengua distinta a R, entonces quizas no sepas
+exactamente que esperar de un IDE que soporte R. Esto resume lo que
+incluye [Positron](https://positron.posit.co/):
 
 - Herramientas para ciencia de datos:
   - Consola de R
@@ -178,9 +187,10 @@ por ejemplo:
 
 ## VS Code
 
-[Visual Studio Code](https://code.visualstudio.com/) tiene poco soporte
-nativo para R, pero estas extensiones y atajos de teclado pueden
-aproximar la experiencia de Positron para R.
+Una carasteristica de VS Code es que es ligero y extensible. Por defecto
+no incluye nada de la lista de arriba [Visual Studio
+Code](https://code.visualstudio.com/), pero estas extensiones y atajos
+de teclado te permiten aproximar la experiencia de Positron para R.
 
 - Extensiones:
 
