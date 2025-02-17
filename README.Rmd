@@ -61,53 +61,94 @@ the only keyboard shortcut you must memorize.
 Practice using it from RStudio. It'll help you stay productive in Positron
 before you memorize the Positron way of doing things.
 
-
-
-
-
 ### Get used to the terminal
 
-`ctrl+shift` + "new terminal"
+The terminal is everywhere, including both in RStudio and Positron. Some things
+you do in RStudio-specific ways you can also do from the terminal. If you get
+used to that workflow from Rstudio, then you can do the same thing in the same
+way from Positron. 
 
-### Install `rig`: The R Installation Manager
+For example, say you're used to running tests and R CMD check by clicing on RStudio's 
+dedicated buttons. You can setup `alias test="Rscript -e 'devtools::test()'"` and 
+`alias check="Rscript -e 'devtools::check()'"` then run `test` and `check` from
+the terminal. Pro tip: Store your aliases in a dedicated repo for your 
+[dotfiles](https://dotfiles.github.io/) so you can reuse them from anywhere.
 
-> We highly recommend [rig](https://github.com/r-lib/rig) for managing R installation. --https://positron.posit.co/r-installations.html
+The "terminal workflow" is quick even if you create, use, and delete it:
+
+* Create a new one with `ctrl+shift+P` + "cnt" (Create New Terminal)`
+* `test`
+* `ctrl+D`
+
+### Install `rig`: The R Installation Manager (optional)
+
+If you're using RStudio you already have R. Positron will notice and use it
+automtically. However, developers comming from other languages, particularly
+from Python, are used to managing languagge versions more fluidly. Take this
+as an opportunity to learn the best practice for managing your R installation: 
+
+> We highly recommend [rig](https://github.com/r-lib/rig) for managing R 
+installation. --https://positron.posit.co/r-installations.html
 
 ## Positron
 
 ### Installation
 
-Install Positron
+Download Positron [from its website ("stable")](https://positron.posit.co/download) 
+or [from GitHub (preview)](https://github.com/posit-dev/positron/releases). 
+
+The specific file and process depends on your system. Here I use the terminal to
+install what suits my system but you need to adapt it to your own system and you
+can likely do it all with the mouse.
+
+```bash
+# "Stable"
+cd /tmp && \ 
+wget https://cdn.posit.co/positron/prereleases/deb/x86_64/Positron-2025.02.0-171-x64.deb && \
+sudo dpkg -i Positron-2025.02.0-171-x64.deb && \
+sudo apt-get install -f && \
+positron --version
+```
+
+Or
+
+```bash
+# Preview
+cd ~/Downloads && \
+wget https://github.com/posit-dev/positron/releases/download/2025.02.0-171/Positron-2025.02.0-171-x64.deb && \
+sudo dpkg -i Positron-2025.02.0-171-x64.deb && \
+sudo apt-get install -f && \
+positron --version
+```
+
+### Project/folder oriented workflow
+
+* Positron doesn't need an `.Rproj` but uses other markers to enabe an
+  equivalent ["folder" oriented workflow](https://positron.posit.co/rstudio-rproj-file.html). 
+  Use "Open Folder".
+
+### Look and play around
+
+* Confirm the similarities (see the first section above).
+* Do something simple in a way that feels specific to RStudio, common to both 
+RStudio and Positron, and specific to Positron, e.g. run tests:
+  * Using a keybord shortcut `ctrl+shift+0`
+  * Using the commands pallete
+  * Using the Positron GUI.
 
 ### Minimize the differencees
 
-You can enable RStudio [keybindings](https://positron.posit.co/keyboard-shortcuts.html#rstudio-keymap):
-
 * Open Positron's settigns: `ctrl+,`.
 * Search "Enable rstudio key mappings" and check the box.
+You can enable RStudio [keybindings](https://positron.posit.co/keyboard-shortcuts.html#rstudio-keymap):
 
+### Customize Positron
 
-## WIP
+You can customize Positron in many ways. It'll take some time to develop your
+preferences, but a good place to start is with your shortcuts:
 
-* The commands pallet: `ctrl+shift+P`
-* Addins, aliases
-* IDE settings
-* Project-oriented workflow: `.Rproj`, `.git/`, `.here`, ...
-* The console/terminal,
+* "Open Keyboard Shortcuts", search for commands, and change or set a shortcut. 
 
+----
 
-
-
-
-
-
-
-
-
-## Positron
-
-* Installation
-* [Keyboard shortcuts](https://positron.posit.co/keyboard-shortcuts.html)
-* [Project-oriented workflow](https://positron.posit.co/rstudio-rproj-file.html): Open Folder
-  > In Positron, the words folder, “workspace”, and “project” are used almost interchangeably,
-* `.vscode/settings.json `
+Learn more at https://positron.posit.co/
