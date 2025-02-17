@@ -4,59 +4,86 @@
 # Approaching Positron from RStudio
 
 Rstudio has the most complete support for R, but today many R developers
-learned Python (or other languages) first and feel more comfortable
-working in VS Code.
+learned first Python or other languages, and feel more comfortable in VS
+Code.
 
-A great meeting point between R developers comming from RStudio and VS
-Code is Positron, because it has great support for R, and is similar to
-both RStudio and VS Code in many ways. But of course there are also some
-differences that may be stopping you from trying or changing to
-Positron.
+A great meeting point between RStudio and VS Code users is Positron,
+because it has great support for R, and is similar to both RStudio and
+VS Code. But of course there are also some differences that may be
+stopping you from transitioning to Positron.
 
-Here I show how to bridge the gap between RStudio and Positron to start
-the transition immediately without losing productivity. It demonstrates
-how you can adapt your workflow in RStudio to prepare for Positron and
-how to configure Positron to resemble RStudio.
+Here I show how to prepare for Positron from RStudio, and how to
+configure Positron to minimize the differences. I’ll help you to start
+the transition immediately, even if you can’t afford to slow down.
 
 ## RStudio
 
-Most R users come from RStudio and know what to expect from an IDE that
-supports R.
+### Note the similarities
 
-- Keyboard shortcuts
+These tools exist both in RStudio and Positron. As an RStudio user you
+likely expect them so we can just notice them:
 
-  - Global
-  - Data Science
-  - Software development
-  - Customize
+- Tools for data science:
+  - R console
+  - Panels to explore plots and data.
+  - Support for Quarto
+  - Keyboard shortcuts for interactive use:
+    - Send code to the R console: ctrl+enter\`
+    - Restart R: `ctrl+shift+0`
+    - Assign `<-`: alt+-\`
+    - Pipe `|>`: `ctrl+M`
+- Tools for software development:
+  - Support for Shiny
+  - A panel for testing
+  - Triggering a debugger from the R console.
+  - Keyboard shortcuts for building R packages with devtools.
+    - `load_all()`: `ctrl+shift+L`
+    - `test()`: `ctrl+shift+T`
+    - `document()`: `ctrl+shift+D`
+    - `check()`: `ctrl+shift+E`
 
-- [x] Shiny
+### Get used to the commands pallete
 
-- [x] Quarto
+Both in RStudio and Positron open the commands pallete with
+`ctrl+shift+P`. It’s the only keyboard shortcut you must memorize.
 
-- [x] Testing
+Practice using it from RStudio. It’ll help you stay productive in
+Positron before you memorize the Positron way of doing things.
 
-- [x] Debugger
+### Get used to the terminal
 
-- RStudio keymap
+`ctrl+shift` + “new terminal”
 
-- The commands pallet: `ctrl + shift + P`
+### Install `rig`: The R Installation Manager
 
+> We highly recommend [rig](https://github.com/r-lib/rig) for managing R
+> installation. –<https://positron.posit.co/r-installations.html>
+
+## Positron
+
+### Installation
+
+Install Positron
+
+### Minimize the differencees
+
+You can enable RStudio
+[keybindings](https://positron.posit.co/keyboard-shortcuts.html#rstudio-keymap):
+
+- Open Positron’s settigns: `ctrl+,`.
+- Search “Enable rstudio key mappings” and check the box.
+
+## WIP
+
+- The commands pallet: `ctrl+shift+P`
 - Addins, aliases
-
 - IDE settings
-
 - Project-oriented workflow: `.Rproj`, `.git/`, `.here`, …
-
 - The console/terminal,
-
-- R: [rig: The R Installation Manager](https://github.com/r-lib/rig)
 
 ## Positron
 
 - Installation
-  - Positron.
-  - R: \> We highly recommend rig for managing R installation.
 - [Keyboard
   shortcuts](https://positron.posit.co/keyboard-shortcuts.html)
 - [Project-oriented
