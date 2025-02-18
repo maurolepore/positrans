@@ -146,12 +146,3 @@ your preferences, but a good place to start is with your shortcuts:
 ------------------------------------------------------------------------
 
 Learn more at <https://positron.posit.co/>
-
-<details>
-<summary>
-ES
-</summary>
-
-TODO: Traducir a espñol.
-
-</details>
