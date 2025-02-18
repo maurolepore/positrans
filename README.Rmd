@@ -25,7 +25,7 @@ RStudio and VS Code.  But of course, there are also some differences
 that may be stopping you from transitioning to Positron.
 
 Here I show how to prepare for Positron from RStudio and how to configure
-Positron to minimize the differences. I'll you start the transition
+Positron to minimize the differences. I'll help you start the transition
 immediately, even if it's not a good time to slow down.
 
 ## RStudio
