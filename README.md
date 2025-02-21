@@ -24,22 +24,22 @@ Positron already includes many tools you know (and likely expect) from
 RStudio:
 
 - Tools for data science:
-  - R console
-  - Panels to explore plots and data
-  - Support for Quarto
+  - R console  
+  - Panels to explore plots and data  
+  - Support for Quarto  
   - Keyboard shortcuts for interactive use:
-    - Send code to the R console: `ctrl+enter`
-    - Restart R: `ctrl+shift+0`
-    - Assign `<-`: `alt+-`
-    - Pipe `|>`: `ctrl+M`
+    - Send code to the R console: `ctrl+enter`  
+    - Restart R: `ctrl+shift+0`  
+    - Assign `<-`: `alt+-`  
+    - Pipe `|>`: `ctrl+M`  
 - Tools for software development:
-  - Support for Shiny
-  - A panel for testing
-  - Triggering a debugger from the R console
+  - Support for Shiny  
+  - A panel for testing  
+  - Triggering a debugger from the R console  
   - Keyboard shortcuts for building R packages with devtools:
-    - `load_all()`: `ctrl+shift+L`
-    - `test()`: `ctrl+shift+T`
-    - `document()`: `ctrl+shift+D`
+    - `load_all()`: `ctrl+shift+L`  
+    - `test()`: `ctrl+shift+T`  
+    - `document()`: `ctrl+shift+D`  
     - `check()`: `ctrl+shift+E`
 
 ### Get used to the command palette
@@ -49,7 +49,7 @@ Both in RStudio and Positron you can open the command palette with
 It’s worth remembering it.
 
 Practice using it from RStudio. When you switch to Positron the command
-pallete will help you stay productive and gradually discover keyboard
+palette will help you stay productive and gradually discover keyboard
 shortcuts or other “Positron ways” to work.
 
 ### Get used to the terminal
@@ -59,19 +59,20 @@ things you do in RStudio-specific ways can also be done from the
 terminal. If you get used to that workflow from RStudio, then you can do
 the same thing in the same way from Positron.
 
-For example, say you’re used to running tests and `R CMD check` by
-clicking on RStudio’s dedicated buttons. You can set up:
+For example:
 
-``` sh
-# Pro tip: Store and reuse aliases in dotfiles (see https://dotfiles.github.io/)
-alias test="Rscript -e 'devtools::test()'"
-```
+- Use `git` and `gh`: Say you’re used to working with Git and GitHub
+  from RStudio’s interface. You could also learn Positron’s interface –
+  which is similar – or use `git` and `gh` from the terminal in the
+  exact same way.
 
-The “terminal workflow” is quick even if you create, use, and delete it:
+- Use aliases: Say you’re used to running tests from the *Build* tab in
+  RStudio. Instead you may set an alias and run it from the terminal.
 
-- Create a new one with `ctrl+shift+P` + “cnt” (Create New Terminal)
-- `test`
-- `ctrl+D`
+<!-- -->
+
+    # Pro tip: Store and reuse aliases in dotfiles (see https://dotfiles.github.io/)
+    alias test="Rscript -e 'devtools::test()'"
 
 ### Install `rig`: The R Installation Manager (optional)
 
@@ -81,8 +82,8 @@ particularly from Python, are used to managing language-versions more
 fluidly. Take this as an opportunity to learn the best practice for
 managing your R installation:
 
-> We highly recommend [rig](https://github.com/r-lib/rig) for managing R
-> installation. –<https://positron.posit.co/r-installations.html>
+We highly recommend [rig](https://github.com/r-lib/rig) for managing R
+installation. –<https://positron.posit.co/r-installations.html>
 
 ## Positron
 
@@ -98,19 +99,15 @@ your own system and you can likely do it all with the mouse.
 
 #### Stable version:
 
-``` sh
-cd /tmp && \
-wget https://cdn.posit.co/positron/prereleases/deb/x86_64/Positron-2025.02.0-171-x64.deb && \
-sudo apt-get install ./Positron-2025.02.0-171-x64.deb
-```
+    cd /tmp && \
+    wget https://cdn.posit.co/positron/prereleases/deb/x86_64/Positron-2025.02.0-171-x64.deb && \
+    sudo apt-get install ./Positron-2025.02.0-171-x64.deb
 
 #### Preview version:
 
-``` sh
-cd ~/Downloads && \
-wget https://github.com/posit-dev/positron/releases/download/2025.02.0-171/Positron-2025.02.0-171-x64.deb && \
-sudo apt-get install ./Positron-2025.02.0-171-x64.deb
-```
+    cd ~/Downloads && \
+    wget https://github.com/posit-dev/positron/releases/download/2025.02.0-171/Positron-2025.02.0-171-x64.deb && \
+    sudo apt-get install ./Positron-2025.02.0-171-x64.deb
 
 ### Project/folder-oriented workflow
 
@@ -119,26 +116,16 @@ sudo apt-get install ./Positron-2025.02.0-171-x64.deb
   workflow](https://positron.posit.co/rstudio-rproj-file.html). Use
   “Open Folder”.
 
-### Look and play around
-
-- Confirm the similarities (see the first section above).
-- Do something simple in a way that feels specific to RStudio, common to
-  both RStudio and Positron, and specific to Positron, e.g., run tests:
-  - Using a keyboard shortcut: `ctrl+shift+0`
-  - Using the command palette
-  - Using the Positron GUI
-
 ### Minimize the differences
 
-- Open Positron’s settings: `ctrl+,`.
-- Search for “Enable RStudio key mappings” and check the box.
+Enable RStudio keybindings:
+
+- Open Positron’s settings: `ctrl+,`.  
+- Search for “Enable RStudio key mappings” and check the box.  
 - You can enable RStudio
   [keybindings](https://positron.posit.co/keyboard-shortcuts.html#rstudio-keymap).
 
-### Customize Positron
-
-You can customize Positron in many ways. It’ll take some time to develop
-your preferences, but a good place to start is with your shortcuts:
+Customize keyboard shortcuts:
 
 - “Open Keyboard Shortcuts,” search for commands, and change or set a
   shortcut.
