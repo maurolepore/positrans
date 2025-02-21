@@ -130,6 +130,9 @@ Customize keyboard shortcuts:
 - “Open Keyboard Shortcuts,” search for commands, and change or set a
   shortcut.
 
-------------------------------------------------------------------------
+### Learn more
 
-Learn more at <https://positron.posit.co/>
+- See <https://positron.posit.co/>
+- Ask [copilot
+  (free)](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/about-github-copilot-free)
+  about Positron or VS Code: <https://github.com/copilot>
